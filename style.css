@@ -1,0 +1,230 @@
+* {
+    top: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: grey;
+    
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 2em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.bar {
+    display: flex;
+    gap: 6px;
+}
+li{
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+    padding-right: 2rem;
+    font-weight: bold;
+    font-size: 20px;
+}
+a:active {
+    color: red;
+}
+a:hover {
+    color: cadetblue;
+}
+.image {
+    display: flex;
+    justify-content: space-around;
+    background-color: grey#E5C3A6;
+    height: 85vh;
+    padding-top: 180px;
+    padding-left: 280px;
+}
+.introduction {
+    padding-top: 120px;
+    text-align: center;
+}
+.mj2 {
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-right: 300px;
+}
+.h1about {
+    color: #efefef;
+    font-family: Verdana, Arial;
+    font-style: bold;
+    font-variant: normal;
+    font-weight: 700;
+    vertical-align: baseline;
+    text-align: center;
+}
+.paragraph {
+    padding-top: 40px;
+    font-size: 30px;
+}
+.second-page {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./second-imagebg.jpg);
+    background-repeat:no-repeat;
+    background-color: white;
+    background-position:center;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    padding-top: 70px;
+ 
+}
+.container{ 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.hobbies {
+    color: white;
+}
+.games {
+    padding-top: 1px;
+    color: white;
+    font-size: 30px;
+}
+.images {
+    display: flex;
+    justify-content: space-around;
+    height: 350px;
+    padding-top: 40px;
+}
+.league {
+    width: 600px;
+}
+.farlight {
+    width: 600px;
+}
+.valo {
+    width: 330px;
+}
+.loves {
+    padding-top: 30px;
+    padding-left: 50px;
+}
+.sunsets-cities {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.sunset {
+    height: 337px;
+    width: 600px;
+    object-fit: cover;
+}
+.moon {
+    height: 337px;
+    width: 500px;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+.cities {
+    width: 600px;
+}
+.listens {
+    padding-left: 50px;
+    padding-top: 3px;
+}
+.educ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 120px;
+    background-color: white;
+    gap: 60px;
+    background-color: #E5C3A6;
+    padding-bottom: 60px;
+}
+.font {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+    font-size: 25px;
+    font-style: italic;
+}
+.third-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    height: 62vh;
+}
+.random {
+    color: white;
+}
+span {
+    color: red;
+}
+.fourt-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: bisque;
+    height: 50vh;
+}
+.scm {
+    font-size: 40px;
+}
+/* .socmed {
+} */
+
+/* .fblogo {
+    height: 350px;
+    width: 500px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+.fb {
+    display: flex;
+    flex-direction: column;
+}
+.fblogomove {
+    color: black;
+    padding-top: 50px;
+    font-size: 20px;
+}
+.iglogo {
+    height: 350px;
+    width: 500px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+.ig { 
+    display: flex;
+    flex-direction: column;
+}
+.iglogomove {
+    color: black;
+    padding-top: 50px;
+    font-size: 20px;
+    padding: 3%;
+}
+img {
+    border-radius: 30px;
+} */
